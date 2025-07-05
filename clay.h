@@ -4404,7 +4404,7 @@ void Clay_ResetMeasureTextCache(void) {
     context->measureTextHashMap.length = 0;
     context->measuredWords.length = 0;
     context->measuredWordsFreeList.length = 0;
-
+    
     for (int32_t i = 0; i < context->measureTextHashMap.capacity; ++i) {
         context->measureTextHashMap.internalArray[i] = 0;
     }
@@ -4438,4 +4438,3 @@ freely, subject to the following restrictions:
     3. This notice may not be removed or altered from any source
     distribution.
 */
-
